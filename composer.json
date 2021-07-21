@@ -23,7 +23,8 @@
         "spatie/laravel-ray": "^1.17",
         "tcg/voyager": "1.4.x-dev",
         "tymon/jwt-auth": "dev-develop",
-        "ext-gd": "*"
+        "ext-gd": "*",
+        "ext-exif": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

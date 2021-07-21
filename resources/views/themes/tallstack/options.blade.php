@@ -70,10 +70,31 @@
 <div class="theme-settings">
 
 	<ul class="nav nav-tabs">
+		<li class="active"><a data-toggle="tab" href="#branding">Branding</a></li>
+		<li><a data-toggle="tab" href="#homepage">Homepage</a></li>
 		<li><a data-toggle="tab" href="#themeinfo">Theme Info</a></li>
 	</ul>
 
 	<div class="tab-content">
+
+		<div id="branding" class="tab-pane fade in active">
+
+			{!! theme_field('image', 'logo', 'Site Logo') !!}
+
+			{!! theme_field('image', 'footer_logo', 'Footer Logo') !!}
+
+		</div>
+
+		<div id="homepage" class="tab-pane">
+
+			{!! theme_field('text', 'home_headline', 'Homepage Headline') !!}
+			{!! theme_field('text', 'home_subheadline', 'Homepage Subheadline') !!}
+			{!! theme_field('text_area', 'home_description', 'Homepage Copy Below Subheadline') !!}
+			{!! theme_field('text', 'home_cta', 'Homepage CTA Text') !!}
+			{!! theme_field('text', 'home_cta_url', 'Homepage CTA URL') !!}
+			{!! theme_field('image', 'home_promo_image', 'Homepage Promo Image') !!}
+
+		</div>
 
 		<div id="themeinfo" class="tab-pane active">
 

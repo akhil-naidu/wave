@@ -28,7 +28,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col items-center justify-center w-full lg:w-1/2">
+            <div class="mt-8 flex flex-col items-center justify-center w-full lg:w-1/2">
                 <img src="https://cdn.devdojo.com/images/december2020/greenred-animals.png">
             </div>
         </div>

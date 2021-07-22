@@ -88,7 +88,7 @@
 
     <script>
         var typed = new Typed('#title', {
-            strings: ["for Students.", "For Authors", "for Organisations", "for Awesome Developers"],
+            strings: ["of Enthusiastic Learners.", "of Innovative Writers.", "to Organize Teams.", "for Awesome Developers!"],
             typeSpeed: 60,
             backSpeed: 20,
             backDelay: 1500,

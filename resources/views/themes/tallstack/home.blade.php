@@ -15,7 +15,7 @@
                         <span id="title" class="block text-indigo-500 xl:inline"></span>
                     </h1>
                 </div>
-                <p class="my-8 text-lg text-gray-600 md:text-xl">Are you ready to see the magical awesomeness of being a part of community? Now, you can learn, write and share faster, by converting your ideas into words.</p>
+                <p class="my-4 text-lg text-gray-600 md:text-xl">Are you ready to see the magical awesomeness of being a part of community? Now, you can learn, write and share faster, by converting your ideas into words.</p>
                 <div class="relative flex items-center pt-4 space-x-3">
                     <a href="#_" class="relative text-2xl group">
                         <span class="relative z-10 px-5 py-2 font-bold leading-tight text-black bg-white border-4 border-gray-900 rounded-lg group-hover:bg-blue-600 group-hover:text-white">Signup</span>

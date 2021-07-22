@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Schema;
 
@@ -14,10 +15,14 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if ($this->app->environment() == 'production') {
-            $this->app['request']->server->set('HTTPS', true);
-        }
+        // I commented this => if ($this->app->environment() == 'production') {
+        // I commented this => $this->app['request']->server->set('HTTPS', true);
+        // I commented this=> }
         // rad man
+
+        if (env( key: 'APP_ENV') !== 'local') {
+            URL::forceScheme( scheme: 'https');
+        }
         Schema::defaultStringLength(191);
     }
 

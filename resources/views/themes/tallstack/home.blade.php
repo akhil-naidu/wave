@@ -15,7 +15,7 @@
                         <span class="block text-indigo-500 xl:inline">Learn Faster</span>
                     </h1>
                 </div>
-                <p class="my-8 text-lg text-gray-600 md:text-xl">Are you ready to see the magical awesomeness of these templates and components? Now, you can design smarter and build faster, converting your visitors into customers.</p>
+                <p class="my-8 text-lg text-gray-600 md:text-xl">Are you ready to see the magical awesomeness of being a part of community? Now, you can learn, write and share faster, by converting your ideas into words.</p>
                 <div class="relative flex items-center pt-4 space-x-3">
                     <a href="#_" class="relative text-2xl group">
                         <span class="relative z-10 px-5 py-2 font-bold leading-tight text-black bg-white border-4 border-gray-900 rounded-lg group-hover:bg-blue-600 group-hover:text-white">Signup</span>
@@ -23,7 +23,7 @@
                     </a>
 
                     <a href="#_" class="relative text-2xl group">
-                        <span class="relative z-10 px-5 py-2 font-bold leading-tight text-green-900 bg-green-200 border-4 border-black rounded-lg group-hover:bg-green-400 group-hover:text-white">Learn More</span>
+                        <span class="relative z-10 px-5 py-2 font-bold leading-tight text-green-900 bg-green-200 border-4 border-black rounded-lg group-hover:bg-green-400 group-hover:text-white">Explore</span>
                         <span class="absolute top-0 right-0 w-full h-14 -mt-2.5 -mr-0.5 bg-black rounded-lg"></span>
                     </a>
                 </div>

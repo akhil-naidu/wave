@@ -4,7 +4,7 @@
 
 
     <!-- Section 1 -->
-    <section class="py-8 bg-white">
+    <section class="py-16 bg-white">
         <div class="flex flex-col max-w-6xl px-10 mx-auto lg:flex-row">
 
             <div class="flex flex-col items-start justify-center w-full pr-10 mb-4 lg:w-1/2 lg:mb-0">
@@ -35,7 +35,7 @@
     </section>
 
     <!-- Section 2 -->
-    <section class="relative w-full overflow-hidden bg-white md:py-20 xl:pt-32 xl:pb-40">
+    <section class="relative w-full overflow-hidden bg-gray-100 py-16">
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
             <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Features</h2>
             <p class="mb-12 text-lg text-gray-500">Here is a few of the awesome features we provide.</p>

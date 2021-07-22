@@ -9,7 +9,7 @@
 
             <div class="flex flex-col items-start justify-center w-full pr-10 mb-12 lg:w-1/2 lg:mb-0">
                 <div class="relative">
-                    <p class="mb-2 text-base font-bold text-black">Learning Adventure</p>
+                    <p class="mb-2 text-base font-bold text-black">Introdcuing Leewardslope</p>
                     <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl xl:text-6xl">
                         <span class="block xl:inline">Study Smart &amp;</span>
                         <span class="block text-indigo-500 xl:inline">Learn Faster</span>

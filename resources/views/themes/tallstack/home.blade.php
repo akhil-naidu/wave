@@ -11,8 +11,8 @@
                 <div class="relative">
                     <p class="mb-2 text-base font-bold text-black">Introdcuing Leewardslope</p>
                     <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl xl:text-6xl">
-                        <span class="block xl:inline">A Community</span>
-                        <span id="title" class="block text-indigo-500 xl:inline"></span>
+                        <span class="block xl:inline h-24">A Community</span>
+                        <span id="title" class="block text-indigo-500 xl:inline h-24"></span>
                     </h1>
                 </div>
                 <p class="my-8 text-lg text-gray-600 md:text-xl">Are you ready to see the magical awesomeness of being a part of community? Now, you can learn, write and share faster, by converting your ideas into words.</p>

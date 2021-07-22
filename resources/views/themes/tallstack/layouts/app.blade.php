@@ -89,7 +89,11 @@
     <script>
         var typed = new Typed('#title', {
             strings: ["for Students.", "For Authors", "for Organisations", "for Awesome Developers"],
-            typeSpeed: 30
+            typeSpeed: 60,
+            backSpeed: 20,
+            backDelay: 1500,
+            startDelay: 0,
+            loop: true
         });
     </script>
 

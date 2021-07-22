@@ -84,18 +84,5 @@
     @endif
     @waveCheckout
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-    <script>
-        var typed = new Typed('#title', {
-            strings: ["of Enthusiastic Learners.", "of Innovative Writers.", "to Organize Teams.", "for Awesome Developers!"],
-            typeSpeed: 60,
-            backSpeed: 20,
-            backDelay: 1500,
-            startDelay: 0,
-            loop: true
-        });
-    </script>
-
 </body>
 </html>

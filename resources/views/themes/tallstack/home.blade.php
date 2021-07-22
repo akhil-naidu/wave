@@ -4,18 +4,17 @@
 
 
     <!-- Section 1 -->
-    <section class="py-16 bg-white md:py-24">
+    <section class="py-8 bg-white">
         <div class="flex flex-col max-w-6xl px-10 mx-auto lg:flex-row">
 
-            <div class="flex flex-col items-start justify-center w-full pr-10 mb-12 lg:w-1/2 lg:mb-0">
+            <div class="flex flex-col items-start justify-center w-full pr-10 mb-4 lg:w-1/2 lg:mb-0">
                 <div class="relative">
-                    <p class="mb-2 text-base font-bold text-black">Introdcuing Leewardslope</p>
-                    <h1 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-5xl xl:text-4xl h-24">
-                        <span class="block xl:inline">A Community</span>
-                        <span id="title" class="block text-indigo-500 xl:inline"></span>
+                    <p class="mb-2 text-base font-bold text-black-600">Introdcuing Leewardslope</p>
+                    <h1 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl xl:text-4xl h-24">
+                        A Community <span id="title" class="text-indigo-500"></span>
                     </h1>
                 </div>
-                <p class="my-4 text-lg text-gray-600 md:text-xl">Are you ready to see the magical awesomeness of being a part of community? Now, you can learn, write and share faster, by converting your ideas into words.</p>
+                <p class="mb-4 text-lg text-gray-600 md:text-xl">Are you ready to see the magical awesomeness of being a part of community? Now, you can learn, write and share faster, by converting your ideas into words.</p>
                 <div class="relative flex items-center pt-4 space-x-3">
                     <a href="#_" class="relative text-2xl group">
                         <span class="relative z-10 px-5 py-2 font-bold leading-tight text-black bg-white border-4 border-gray-900 rounded-lg group-hover:bg-blue-600 group-hover:text-white">Signup</span>
@@ -36,7 +35,7 @@
     </section>
 
     <!-- Section 2 -->
-    <section class="relative w-full py-12 overflow-hidden bg-white md:py-20 xl:pt-32 xl:pb-40">
+    <section class="relative w-full overflow-hidden bg-white md:py-20 xl:pt-32 xl:pb-40">
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
             <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Features</h2>
             <p class="mb-12 text-lg text-gray-500">Here is a few of the awesome features we provide.</p>
@@ -778,5 +777,17 @@
         </div>
     </section>
     -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed('#title', {
+            strings: ["of Enthusiastic Learners.", "of Innovative Writers.", "to Organize Teams.", "for Awesome Developers!"],
+            typeSpeed: 60,
+            backSpeed: 20,
+            backDelay: 1500,
+            startDelay: 0,
+            loop: true
+        });
+    </script>
 
 @endsection

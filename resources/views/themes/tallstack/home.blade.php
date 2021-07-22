@@ -11,8 +11,8 @@
                 <div class="relative">
                     <p class="mb-2 text-base font-bold text-black">Introdcuing Leewardslope</p>
                     <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl xl:text-6xl">
-                        <span class="block xl:inline">Study Smart &amp;</span>
-                        <span class="block text-indigo-500 xl:inline">Learn Faster</span>
+                        <span class="block xl:inline">A Community</span>
+                        <span id="title" class="block text-indigo-500 xl:inline"></span>
                     </h1>
                 </div>
                 <p class="my-8 text-lg text-gray-600 md:text-xl">Are you ready to see the magical awesomeness of being a part of community? Now, you can learn, write and share faster, by converting your ideas into words.</p>
@@ -778,4 +778,14 @@
         </div>
     </section>
     -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed('title', {
+            strings: ["for Students.", "For Authors", "for Organisations", "for Awesome Developers"],
+            typeSpeed: 30
+        });
+    </script>
+
 @endsection

@@ -67,9 +67,9 @@ module.exports = {
         inset: ['responsive', 'group-hover'],
         translate: ['responsive', 'hover', 'group-hover'],
         gridTemplateColumns: ['responsive'],
-        height: ['responsive', 'group-hover'],
-        scale: ['group-hover', 'responsive'],
-        rotate: ['group-hover', 'responsive'],
+        height: ['responsive', 'group-hover', 'hover'],
+        scale: ['group-hover', 'responsive', 'hover'],
+        rotate: ['group-hover', 'responsive', 'hover'],
         container: ['responsive']
     },
     plugins: [
